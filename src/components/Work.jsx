@@ -76,7 +76,7 @@ const Work = () => {
 								Game Rant
 							</span>
 							<div className="pt-8 text-center">
-								<a href="https://celadon-jalebi-94db3f.netlify.app/">
+								<a href="https://game-rant.netlify.app/">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
 										Demo
 									</button>

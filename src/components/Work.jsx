@@ -29,6 +29,12 @@ const Work = () => {
 							<span className="text-2xl font-bold text-white tracking-wider">
 								Brick Breaker
 							</span>
+							<div className="mt-3">
+								<span>
+									This project was built using HTML, CSS, and JS. Functions such
+									as object were included as a function, as well as lives.
+								</span>
+							</div>
 							<div className="pt-8 text-center">
 								<a href="https://ngc918.github.io/brick-breaker-project/">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
@@ -52,6 +58,13 @@ const Work = () => {
 							<span className="text-2xl font-bold text-white tracking-wider">
 								Game Realms
 							</span>
+							<div className="mt-3">
+								<span>
+									A wishlist site for games was made using the IGDB API. Login
+									and signup function implemented, as well as a wishlist
+									function. Boostrap used for styling.
+								</span>
+							</div>
 							<div className="pt-8 text-center">
 								<a href="https://game-realms.herokuapp.com/">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
@@ -75,6 +88,13 @@ const Work = () => {
 							<span className="text-2xl font-bold text-white tracking-wider">
 								Game Rant
 							</span>
+							<div className="mt-3">
+								<p>
+									First site with React.js using RAWG.io API. Built for gamers
+									to share thoughts and opinions. Has login, signup, and comment
+									functions working. Styled with Boostrap.
+								</p>
+							</div>
 							<div className="pt-8 text-center">
 								<a href="https://game-rant.netlify.app/">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
@@ -98,6 +118,12 @@ const Work = () => {
 							<span className="text-2xl font-bold text-white tracking-wider">
 								My Portfolio
 							</span>
+							<div className="mt-3">
+								<span>
+									Built my portfolio using React.js to display by skills, work,
+									and interests. Styled with tailwind.
+								</span>
+							</div>
 							<div className="pt-8 text-center">
 								<a href="https://nicogonzalez.netlify.app/">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">

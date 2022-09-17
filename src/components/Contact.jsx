@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 
 const Contact = () => {
 	return (
@@ -25,18 +25,22 @@ const Contact = () => {
 					type="text"
 					placeholder="Name"
 					name="name"
+					required="true"
 				></input>
 				<input
 					className="my-4 p-2 bg-[#ccd6f6]"
 					type="email"
 					placeholder="Email"
+					errorMessage="Please provide a valid email"
 					name="email"
+					required="true"
 				></input>
 				<textarea
 					className="bg-[#ccd6f6] p-2"
 					name="message"
 					rows="10"
 					placeholder="Message"
+					required="true"
 				></textarea>
 				<button className="text-white border-2 px-4 py-3 my-8 mx-auto flex items-center hover:bg-white hover:border-white hover:text-[#0a192f]">
 					Lets Connect

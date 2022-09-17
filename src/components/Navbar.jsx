@@ -85,6 +85,26 @@ const Navbar = () => {
 						Contact
 					</Link>
 				</li>
+				<div className="pt-40 py-6 text-3xl">
+					<p className="uppercase tracking-widest">Lets Connect</p>
+					<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+						<a href="https://www.linkedin.com/in/ngonz09/">
+							<div className="rounded-full shadow-lg sh">
+								<FaLinkedin />
+							</div>
+						</a>
+						<a href="https://github.com/ngc918">
+							<div className="rounded-full shadow-lg sh">
+								<FaGithub />
+							</div>
+						</a>
+						<a href="https://drive.google.com/file/d/1J2aYyY6Ub-OokriF5qnHC9DgVTjpnBV9/view?usp=sharing">
+							<div className="rounded-full shadow-lg sh">
+								<BsFillPersonLinesFill />
+							</div>
+						</a>
+					</div>
+				</div>
 			</ul>
 
 			{/* Social icons */}

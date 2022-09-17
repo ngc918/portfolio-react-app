@@ -4,12 +4,14 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import Gallery from "./components/Gallery";
 
 function App() {
 	return (
 		<div>
 			<Navbar />
 			<Home />
+			<Gallery />
 			<About />
 			<Skills />
 			<Work />

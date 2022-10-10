@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import Gallery from "./Gallery";
 
 const Home = () => {
 	return (

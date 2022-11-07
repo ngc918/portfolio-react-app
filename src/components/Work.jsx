@@ -3,6 +3,7 @@ import BrickBreak from "../assets/brick-breaker.PNG";
 import GameRealms from "../assets/game-realms.PNG";
 import GameRant from "../assets/project-img.png";
 import Portfolio from "../assets/portfolio.PNG";
+import Fitness from "../assets/angular-fitness.png";
 
 const Work = () => {
 	return (
@@ -131,6 +132,37 @@ const Work = () => {
 									</button>
 								</a>
 								<a href="https://github.com/ngc918/portfolio-react-app">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div
+						style={{ backgroundImage: `url(${Fitness})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/*Hover Effect*/}
+						<div className="opacity-0 group-hover:opacity-100 text-center">
+							<span className="text-2xl font-bold text-white tracking-wider">
+								Angular Fitness
+							</span>
+							<div className="mt-3">
+								<span>
+									Fitness tracking app with built in workouts. Built using
+									Angular, Angular Material, Firebase, and NGRX state
+									management.
+								</span>
+							</div>
+							<div className="pt-8 text-center">
+								<a href="https://angular-fitness-tracker-a6e8c.web.app/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+										Demo
+									</button>
+								</a>
+								<a href="https://github.com/ngc918/angular-fitness-app">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
 										Code
 									</button>

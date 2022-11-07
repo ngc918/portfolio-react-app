@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-app/static/css/main.813c5893.css",
+    "main.js": "/portfolio-react-app/static/js/main.18232c11.js",
+    "static/media/project-img.png": "/portfolio-react-app/static/media/project-img.a06b9929517334d4b5af.png",
+    "static/media/game-realms.PNG": "/portfolio-react-app/static/media/game-realms.8d8f4a1dc03bd26b186c.PNG",
+    "static/media/brick-breaker.PNG": "/portfolio-react-app/static/media/brick-breaker.c72817fd76f39ec37e86.PNG",
+    "static/media/typescript.png": "/portfolio-react-app/static/media/typescript.a66f27784365c9bb593e.png",
+    "static/media/portfolio.PNG": "/portfolio-react-app/static/media/portfolio.5dfc36ab959a77ee8c84.PNG",
+    "static/media/react.png": "/portfolio-react-app/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/portfolio-react-app/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/portfolio-react-app/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/ngrx.png": "/portfolio-react-app/static/media/ngrx.ac128d05b61b3ececf42.png",
+    "static/media/html.png": "/portfolio-react-app/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/portfolio-react-app/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/portfolio-react-app/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/firebase.png": "/portfolio-react-app/static/media/firebase.209703cedf1b1a96bc52.png",
+    "static/media/javascript.png": "/portfolio-react-app/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio-react-app/index.html",
+    "main.813c5893.css.map": "/portfolio-react-app/static/css/main.813c5893.css.map",
+    "main.18232c11.js.map": "/portfolio-react-app/static/js/main.18232c11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.813c5893.css",
+    "static/js/main.18232c11.js"
+  ]
+}

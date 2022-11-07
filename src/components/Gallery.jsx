@@ -49,7 +49,7 @@ const Gallery = () => {
 
 	return (
 		<>
-			<div className="bg-[#0a192f] relative flex flex-row justify-center items-center text px-12 mr-[75px] ml-[75px] fixed">
+			<div className="bg-[#0a192f] relative flex flex-row justify-center items-center text px-12 mr-[75px] ml-[75px] fixed z-0">
 				<MdChevronLeft
 					className="opacity-50 cursor-pointer hover:opacity-100 fill-white"
 					size={40}

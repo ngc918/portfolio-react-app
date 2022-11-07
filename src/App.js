@@ -8,7 +8,7 @@ import Gallery from "./components/Gallery";
 
 function App() {
 	return (
-		<div>
+		<div className="bg-[#0a192f]">
 			<Navbar />
 			<Home />
 			<Gallery />

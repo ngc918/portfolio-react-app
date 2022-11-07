@@ -1,57 +1,39 @@
 import React from "react";
-import LogIn from "../assets/login func.PNG";
-import gameInfo from "../assets/game-info.png";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 const Gallery = () => {
 	const gallery = [
 		{
 			id: 1,
-			img: "https://images.unsplash.com/photo-1547005327-ef75a6961556?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2NlYW58ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+			img: "https://ik.imagekit.io/nicolasg/project-img.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667807889502",
 		},
 		{
 			id: 2,
-			img: "https://images.unsplash.com/photo-1480926965639-9b5f63a0817b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
+			img: "https://ik.imagekit.io/nicolasg/game-info.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667807204922",
 		},
 		{
 			id: 3,
-			img: "https://images.unsplash.com/photo-1566024287286-457247b70310?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
+			img: "https://ik.imagekit.io/nicolasg/ngfitness_signup.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807198959",
 		},
 		{
 			id: 4,
-			img: "https://images.unsplash.com/photo-1494791368093-85217fbbf8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2NlYW58ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+			img: "https://ik.imagekit.io/nicolasg/workout_progress.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807198732",
 		},
 		{
 			id: 5,
-			img: "https://images.unsplash.com/photo-1551405780-03882d5a2ba7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
+			img: "https://ik.imagekit.io/nicolasg/game-realms.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807204305",
 		},
 		{
 			id: 6,
-			img: "https://images.unsplash.com/photo-1562059392-096320bccc7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
+			img: "https://ik.imagekit.io/nicolasg/login_func.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807204120",
 		},
 		{
 			id: 7,
-			img: "https://images.unsplash.com/photo-1478359844494-1092259d93e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
+			img: "https://ik.imagekit.io/nicolasg/portfolio.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807199130",
 		},
 		{
 			id: 8,
-			img: "https://images.unsplash.com/photo-1514999037859-b486988734f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
-		},
-		{
-			id: 9,
-			img: "https://images.unsplash.com/photo-1509477887414-681937645173?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
-		},
-		{
-			id: 10,
-			img: "https://images.unsplash.com/photo-1454783904586-9fa42a1e8442?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
-		},
-		{
-			id: 11,
-			img: "https://images.unsplash.com/photo-1530539595977-0aa9890547c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
-		},
-		{
-			id: 12,
-			img: "https://images.unsplash.com/photo-1542262868-cec49cce6571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fG9jZWFufGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=300&q=60",
+			img: "https://ik.imagekit.io/nicolasg/brick-breaker.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807199478",
 		},
 	];
 
@@ -67,9 +49,9 @@ const Gallery = () => {
 
 	return (
 		<>
-			<div className="bg-[#0a192f] relative flex flex-row justify-center items-center text px-12">
+			<div className="bg-[#0a192f] relative flex flex-row justify-center items-center text px-12 mr-[75px] ml-[75px] fixed">
 				<MdChevronLeft
-					className="opacity-50 cursor-pointer hover:opacity-100"
+					className="opacity-50 cursor-pointer hover:opacity-100 fill-white"
 					size={40}
 					onClick={slideLeft}
 				/>
@@ -79,14 +61,14 @@ const Gallery = () => {
 				>
 					{gallery.map((item) => (
 						<img
-							className="w=[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300"
+							className="w=[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 w-[400px] h-[350px] aspect-auto"
 							src={item.img}
 							alt="/"
 						/>
 					))}
 				</div>
 				<MdChevronRight
-					className="opacity-50 cursor-pointer hover:opacity-100"
+					className="opacity-50 cursor-pointer hover:opacity-100 fill-white"
 					size={40}
 					onClick={slideRight}
 				/>

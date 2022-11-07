@@ -8,7 +8,9 @@ import Node from "../assets/node.png";
 import Bootstrap from "../assets/bootstrap.png";
 import Tailwind from "../assets/tailwind.png";
 import Firebase from "../assets/firebase.png";
-import Angular from "../assets/angular.jpg";
+import Angular from "../assets/angular.png";
+import NGRX from "../assets/ngrx.png";
+import Postman from "../assets/postman.png";
 import TS from "../assets/typescript.png";
 
 const Skills = () => {
@@ -45,6 +47,11 @@ const Skills = () => {
 					</div>
 
 					<div className="shadow-mid shadow-[#040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Angular} alt="node icon" />
+						<p className="my-4">Angular</p>
+					</div>
+
+					<div className="shadow-mid shadow-[#040c16] hover:scale-110 duration-500">
 						<img className="w-20 mx-auto" src={Mongo} alt="mongo icon" />
 						<p className="my-4">MongoDB</p>
 					</div>
@@ -62,6 +69,21 @@ const Skills = () => {
 					<div className="shadow-mid shadow-[#040c16] hover:scale-110 duration-500">
 						<img className="w-20 mx-auto" src={Tailwind} alt="node icon" />
 						<p className="my-4">Tailwind</p>
+					</div>
+
+					<div className="shadow-mid shadow-[#040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Firebase} alt="node icon" />
+						<p className="my-4">Firebase</p>
+					</div>
+
+					<div className="shadow-mid shadow-[#040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={NGRX} alt="node icon" />
+						<p className="my-4">NGRX</p>
+					</div>
+
+					<div className="shadow-mid shadow-[#040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Postman} alt="node icon" />
+						<p className="my-4">Postman</p>
 					</div>
 				</div>
 			</div>

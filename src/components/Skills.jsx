@@ -11,7 +11,6 @@ import Firebase from "../assets/firebase.png";
 import Angular from "../assets/angular.png";
 import NGRX from "../assets/ngrx.png";
 import Postman from "../assets/postman.png";
-import TS from "../assets/typescript.png";
 
 const Skills = () => {
 	return (

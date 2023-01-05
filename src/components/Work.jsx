@@ -4,7 +4,7 @@ import GameRealms from "../assets/game-realms.PNG";
 import GameRant from "../assets/project-img.png";
 import Portfolio from "../assets/portfolio.PNG";
 import Fitness from "../assets/angular-fitness.png";
-import StoreHome from "https://ik.imagekit.io/nicolasg/store_home.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1672895802242";
+// import StoreHome from "https://ik.imagekit.io/nicolasg/store_home.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1672895802242";
 
 const Work = () => {
 	return (
@@ -23,7 +23,9 @@ const Work = () => {
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 					{/*Grid Item*/}
 					<div
-						style={{ backgroundImage: `url(${StoreHome})` }}
+						style={{
+							backgroundImage: `https://ik.imagekit.io/nicolasg/store_home.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1672895802242`,
+						}}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/*Hover Effect*/}

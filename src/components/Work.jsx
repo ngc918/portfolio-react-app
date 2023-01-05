@@ -4,7 +4,7 @@ import GameRealms from "../assets/game-realms.PNG";
 import GameRant from "../assets/project-img.png";
 import Portfolio from "../assets/portfolio.PNG";
 import Fitness from "../assets/angular-fitness.png";
-// import StoreHome from "https://ik.imagekit.io/nicolasg/store_home.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1672895802242";
+import Store from "../assets/store home.PNG";
 
 const Work = () => {
 	return (
@@ -24,14 +24,14 @@ const Work = () => {
 					{/*Grid Item*/}
 					<div
 						style={{
-							backgroundImage: `https://ik.imagekit.io/nicolasg/store_home.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1672895802242`,
+							backgroundImage: `urk(${Store})`,
 						}}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/*Hover Effect*/}
 						<div className="opacity-0 group-hover:opacity-100 text-center">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								Game Rant
+								Angular Store
 							</span>
 							<div className="mt-3">
 								<p>

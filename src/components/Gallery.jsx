@@ -5,34 +5,42 @@ const Gallery = () => {
 	const gallery = [
 		{
 			id: 1,
-			img: "https://ik.imagekit.io/nicolasg/project-img.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667807889502",
+			img: "https://ik.imagekit.io/nicolasg/store_home.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1672895802242",
 		},
 		{
 			id: 2,
-			img: "https://ik.imagekit.io/nicolasg/game-info.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667807204922",
+			img: "https://ik.imagekit.io/nicolasg/shopping_cart.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1672895801866",
 		},
 		{
 			id: 3,
-			img: "https://ik.imagekit.io/nicolasg/ngfitness_signup.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807198959",
+			img: "https://ik.imagekit.io/nicolasg/checkout.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1672895801822",
 		},
 		{
 			id: 4,
-			img: "https://ik.imagekit.io/nicolasg/workout_progress.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807198732",
+			img: "https://ik.imagekit.io/nicolasg/project-img.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667807889502",
 		},
 		{
 			id: 5,
-			img: "https://ik.imagekit.io/nicolasg/game-realms.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807204305",
+			img: "https://ik.imagekit.io/nicolasg/game-info.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667807204922",
 		},
 		{
 			id: 6,
-			img: "https://ik.imagekit.io/nicolasg/login_func.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807204120",
+			img: "https://ik.imagekit.io/nicolasg/ngfitness_signup.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807198959",
 		},
 		{
 			id: 7,
-			img: "https://ik.imagekit.io/nicolasg/portfolio.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807199130",
+			img: "https://ik.imagekit.io/nicolasg/workout_progress.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807198732",
 		},
 		{
 			id: 8,
+			img: "https://ik.imagekit.io/nicolasg/game-realms.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807204305",
+		},
+		{
+			id: 9,
+			img: "https://ik.imagekit.io/nicolasg/portfolio.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807199130",
+		},
+		{
+			id: 10,
 			img: "https://ik.imagekit.io/nicolasg/brick-breaker.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1667807199478",
 		},
 	];

@@ -4,6 +4,7 @@ import GameRealms from "../assets/game-realms.PNG";
 import GameRant from "../assets/project-img.png";
 import Portfolio from "../assets/portfolio.PNG";
 import Fitness from "../assets/angular-fitness.png";
+import StoreHome from "https://ik.imagekit.io/nicolasg/store_home.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1672895802242";
 
 const Work = () => {
 	return (
@@ -21,6 +22,35 @@ const Work = () => {
 				{/*Container*/}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 					{/*Grid Item*/}
+					<div
+						style={{ backgroundImage: `url(${StoreHome})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/*Hover Effect*/}
+						<div className="opacity-0 group-hover:opacity-100 text-center">
+							<span className="text-2xl font-bold text-white tracking-wider">
+								Game Rant
+							</span>
+							<div className="mt-3">
+								<p>
+									ECommerce site built with Angular. Products come from the
+									FakeStoreAPI. Checkout has Stripe functionality.
+								</p>
+							</div>
+							<div className="pt-8 text-center">
+								<a href="https://magnificent-babka-cc2470.netlify.app/home">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+										Demo
+									</button>
+								</a>
+								<a href="https://github.com/ngc918/angular-store">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
 					<div
 						style={{ backgroundImage: `url(${Fitness})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"

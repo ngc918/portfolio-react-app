@@ -16,9 +16,12 @@ const About = () => {
 					</div>
 					<div>
 						<p>
-							I am a passionate developer looking to build excellent and
-							effecient software that improves the lives of others. Looking to
-							work with a wide range of clientele and improve my skillset.
+							I began my coding journey in late 2021 in an attempt to learn
+							something. When I started, I didn't realize how much I would truly
+							enjoy it. Designing an application from the ground up is an
+							amazing experience, even throught the ups and downs. With each
+							passing day I try to learn, discover, and improve my skills as a
+							developer.
 						</p>
 					</div>
 				</div>
